@@ -12,7 +12,7 @@ def generate_sex():
     return str(randint(3, 4))
 
 def generate_random_portion():
-    data = randint(0, 99999)
+    data = randint(0, 9999)
     return "{:05d}".format(data)
 
 def control_number_v1(iin):
