@@ -13,7 +13,7 @@ def generate_sex():
 
 def generate_random_portion():
     data = randint(0, 9999)
-    return "{:05d}".format(data)
+    return "{:04d}".format(data)
 
 def control_number_v1(iin):
     weights = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
